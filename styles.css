@@ -554,9 +554,15 @@
 }
 
 @media screen and (max-width: 768px) {
-    .services__wrapper  {
+    .services__wrapper {
         grid-template-columns: 1fr;
     }
 }
 
 /* Footer */
+
+.footer__container {
+    background: #131313;
+    display: flex;
+    justify-content: center;
+}
